@@ -6,7 +6,7 @@ def write_to_db(csv_file: str) -> None:
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Impana@2410",  # Replace with your actual password
+            password="",  # Replace with your actual password
             database="federal_register_db"
         )
         cursor = conn.cursor()
