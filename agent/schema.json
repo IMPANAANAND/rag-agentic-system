@@ -1,0 +1,26 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "query_mysql_database",
+            "description": "Query the MySQL database containing Federal Register executive orders.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The SQL query to execute."
+                    },
+                    "params": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "Parameters for the SQL query to prevent SQL injection."
+                    }
+                },
+                "required": ["query"]
+            }
+        }
+    }
+]

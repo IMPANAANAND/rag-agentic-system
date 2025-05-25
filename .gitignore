@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment folders
+.env
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite/DB dumps
+*.sqlite3
+*.db
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Ollama model cache (if any)
+ollama_models/

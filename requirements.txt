@@ -1,0 +1,7 @@
+requests
+mysql-connector-python
+fastapi
+uvicorn
+streamlit
+aiohttp
+openai
